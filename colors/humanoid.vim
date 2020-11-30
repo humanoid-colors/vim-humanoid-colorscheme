@@ -17,7 +17,7 @@ if &background == "light"
   let s:gui0A      = "#fb6107"
   let s:gui0B      = "#22a54e"
   let s:gui0C      = "#007784"
-  let s:gui0D      = "#0082c9"
+  let s:gui0D      = "#006fd7"
   let s:gui0E      = "#811cac"
   let s:gui0F      = "#7f5501"
   let s:guiBG      = "#f8f8f2"
@@ -128,7 +128,7 @@ if has("nvim")
   	let g:terminal_color_1 =  "#b0151a"
   	let g:terminal_color_2 =  "#22a54e"
   	let g:terminal_color_3 =  "#fb6107"
-  	let g:terminal_color_4 =  "#0082c9"
+  	let g:terminal_color_4 =  "#006fd7"
   	let g:terminal_color_5 =  "#811cac"
   	let g:terminal_color_6 =  "#007784"
   	let g:terminal_color_7 =  "#eeede7"
@@ -166,7 +166,7 @@ elseif has("terminal")
           \ "#b0151a",
           \ "#22a54e",
           \ "#fb6107",
-          \ "#0082c9",
+          \ "#006fd7",
           \ "#811cac",
           \ "#007784",
           \ "#eeede7",
