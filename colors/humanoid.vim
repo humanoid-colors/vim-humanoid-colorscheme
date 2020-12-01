@@ -252,11 +252,11 @@ call <sid>hi("Folded",        s:gui04, s:gui06, s:cterm04, s:cterm06, "", "")
 call <sid>hi("IncSearch",     s:gui06, s:gui09, s:cterm06, s:cterm09, "NONE", "")
 call <sid>hi("Italic",        "", "", "", "", "italic", "")
 call <sid>hi("Macro",         s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("MatchParen",    "", s:gui05, "", s:cterm05,  "", "")
+call <sid>hi("MatchParen",    "", s:gui05, "", s:cterm05, "", "")
 call <sid>hi("ModeMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("MoreMsg",       s:gui0B, "", s:cterm0B, "", "", "")
 call <sid>hi("Question",      s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("Search",        s:gui06, s:gui0A, s:cterm06, s:cterm0A,  "", "")
+call <sid>hi("Search",        s:gui06, s:gui0A, s:cterm06, s:cterm0A, "", "")
 call <sid>hi("Substitute",    s:gui06, s:gui0A, s:cterm06, s:cterm0A, "NONE", "")
 call <sid>hi("SpecialKey",    s:gui03, "", s:cterm03, "", "", "")
 call <sid>hi("TooLong",       s:gui08, "", s:cterm08, "", "", "")
@@ -333,15 +333,15 @@ call <sid>hi("cssClassName",   s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("cssColor",       s:gui0C, "", s:cterm0C, "", "", "")
 
 " Diff highlighting
-call <sid>hi("DiffAdd",      s:gui0B, "",  s:cterm0B, "", "", "")
-call <sid>hi("DiffChange",   s:gui03, "",  s:cterm03, "", "", "")
-call <sid>hi("DiffDelete",   s:gui08, "",  s:cterm08, "", "", "")
-call <sid>hi("DiffText",     s:gui0D, "",  s:cterm0D, "", "", "")
-call <sid>hi("DiffAdded",    s:gui0B, "",  s:cterm0B, "", "", "")
-call <sid>hi("DiffFile",     s:gui08, "",  s:cterm08, "", "", "")
-call <sid>hi("DiffNewFile",  s:gui0B, "",  s:cterm0B, "", "", "")
-call <sid>hi("DiffLine",     s:gui0D, "",  s:cterm0D, "", "", "")
-call <sid>hi("DiffRemoved",  s:gui08, "",  s:cterm08, "", "", "")
+call <sid>hi("DiffAdd",      s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("DiffChange",   s:gui03, "", s:cterm03, "", "", "")
+call <sid>hi("DiffDelete",   s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("DiffText",     s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("DiffAdded",    s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("DiffFile",     s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("DiffNewFile",  s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("DiffLine",     s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("DiffRemoved",  s:gui08, "", s:cterm08, "", "", "")
 
 " Git highlighting
 call <sid>hi("gitcommitOverflow",       s:gui08, "", s:cterm08, "", "", "")
@@ -501,7 +501,7 @@ call <sid>hi("ModeTFGCS",    s:gui0C, s:guiBG, s:cterm0C, s:ctermBG, "", "")
 delf <sid>hi
 
 " Remove color variables
-unlet s:gui00 s:gui01 s:gui02 s:gui03  s:gui04  s:gui05  s:gui06  s:gui07  s:gui08  s:gui09 s:gui0A  s:gui0B  s:gui0C  s:gui0D  s:gui0E  s:gui0F
+unlet s:gui00 s:gui01 s:gui02 s:gui03 s:gui04 s:gui05 s:gui06 s:gui07 s:gui08 s:gui09 s:gui0A s:gui0B s:gui0C s:gui0D s:gui0E s:gui0F
 unlet s:cterm00 s:cterm01 s:cterm02 s:cterm03 s:cterm04 s:cterm05 s:cterm06 s:cterm07 s:cterm08 s:cterm09 s:cterm0A s:cterm0B s:cterm0C s:cterm0D s:cterm0E s:cterm0F
 
 " vim:set ft=vim et sw=2:
