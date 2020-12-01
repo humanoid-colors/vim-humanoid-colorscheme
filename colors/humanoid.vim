@@ -1,7 +1,13 @@
-" vi:syntax=vim
+" Name: Humanoid scheme
+" Author: Thomas (tasmo) Friese
 
-" Humanoid scheme by Thomas (tasmo) Friese
+" Theme setup
+hi clear
+if exists("syntax_on")
+  syntax reset
+endif
 
+let g:colors_name = "humanoid"
 " GUI color definitions
 if &background == "light"
   let s:gui07      = "#fcfcfc"
@@ -201,11 +207,6 @@ elseif has("terminal")
   endif
 endif
 let s:none = "NONE"
-
-" Theme setup
-hi clear
-syntax reset
-let g:colors_name = "humanoid"
 
 " Highlighting function
 " Optional variables are attributes and guisp
