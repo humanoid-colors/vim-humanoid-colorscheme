@@ -8,6 +8,7 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "humanoid"
+
 " GUI color definitions
 if &background == "light"
   let s:gui07      = "#fcfcfc"
