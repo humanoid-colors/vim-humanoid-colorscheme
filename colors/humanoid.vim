@@ -11,43 +11,43 @@ let g:colors_name = "humanoid"
 
 " GUI color definitions
 if &background == "light"
-  let s:gui07      = "#fcfcfc"
-  let s:gui06      = "#eeede7"
-  let s:gui05      = "#d6d6d3"
-  let s:gui04      = "#c0c0bd"
-  let s:gui03      = "#7a7b75"
-  let s:gui02      = "#484e54"
-  let s:gui01      = "#2f3337"
-  let s:gui00      = "#070708"
-  let s:gui08      = "#b0151a"
-  let s:gui09      = "#ff9505"
-  let s:gui0A      = "#fb6107"
-  let s:gui0B      = "#22a54e"
-  let s:gui0C      = "#007784"
-  let s:gui0D      = "#006fd7"
-  let s:gui0E      = "#811cac"
-  let s:gui0F      = "#7f5501"
-  let s:guiBG      = "#f8f8f2"
-  let s:guiFG      = "#232629"
+  let s:gui07 = "#fcfcfc"
+  let s:gui06 = "#eeede7"
+  let s:gui05 = "#d6d6d3"
+  let s:gui04 = "#c0c0bd"
+  let s:gui03 = "#7a7b75"
+  let s:gui02 = "#484e54"
+  let s:gui01 = "#2f3337"
+  let s:gui00 = "#070708"
+  let s:gui08 = "#b0151a"
+  let s:gui09 = "#ff9505"
+  let s:gui0A = "#fb6107"
+  let s:gui0B = "#22a54e"
+  let s:gui0C = "#007784"
+  let s:gui0D = "#006fd7"
+  let s:gui0E = "#811cac"
+  let s:gui0F = "#7f5501"
+  let s:guiBG = "#f8f8f2"
+  let s:guiFG = "#232629"
 else
-  let s:gui00      = "#fcfcfc"
-  let s:gui01      = "#eeede7"
-  let s:gui02      = "#d6d6d3"
-  let s:gui03      = "#c0c0bd"
-  let s:gui04      = "#7a7b75"
-  let s:gui05      = "#484e54"
-  let s:gui06      = "#2f3337"
-  let s:gui07      = "#070708"
-  let s:gui08      = "#f11235"
-  let s:gui09      = "#ff9505"
-  let s:gui0A      = "#ffb627"
-  let s:gui0B      = "#02d849"
-  let s:gui0C      = "#0ed1d1"
-  let s:gui0D      = "#4bc1fc"
-  let s:gui0E      = "#e834f9"
-  let s:gui0F      = "#b27701"
-  let s:guiBG      = "#232629"
-  let s:guiFG      = "#f8f8f2"
+  let s:gui00 = "#fcfcfc"
+  let s:gui01 = "#eeede7"
+  let s:gui02 = "#d6d6d3"
+  let s:gui03 = "#c0c0bd"
+  let s:gui04 = "#7a7b75"
+  let s:gui05 = "#484e54"
+  let s:gui06 = "#2f3337"
+  let s:gui07 = "#070708"
+  let s:gui08 = "#f11235"
+  let s:gui09 = "#ff9505"
+  let s:gui0A = "#ffb627"
+  let s:gui0B = "#02d849"
+  let s:gui0C = "#0ed1d1"
+  let s:gui0D = "#4bc1fc"
+  let s:gui0E = "#e834f9"
+  let s:gui0F = "#b27701"
+  let s:guiBG = "#232629"
+  let s:guiFG = "#f8f8f2"
 endif
 let g:theme_gui00 = s:gui00
 let g:theme_gui01 = s:gui01
@@ -70,43 +70,43 @@ let g:theme_guiFG = s:guiFG
 
 " Terminal color definitions
 if &background == "light"
-  let s:cterm07      = "00"
-  let s:cterm06      = "18"
-  let s:cterm05      = "19"
-  let s:cterm04      = "08"
-  let s:cterm03      = "20"
-  let s:cterm02      = "07"
-  let s:cterm01      = "21"
-  let s:cterm00      = "15"
-  let s:cterm08      = "01"
-  let s:cterm09      = "16"
-  let s:cterm0A      = "03"
-  let s:cterm0B      = "02"
-  let s:cterm0C      = "06"
-  let s:cterm0D      = "04"
-  let s:cterm0E      = "05"
-  let s:cterm0F      = "17"
-  let s:ctermBG      = "15"
-  let s:ctermFG      = "00"
+  let s:cterm07 = "00"
+  let s:cterm06 = "18"
+  let s:cterm05 = "19"
+  let s:cterm04 = "08"
+  let s:cterm03 = "20"
+  let s:cterm02 = "07"
+  let s:cterm01 = "21"
+  let s:cterm00 = "15"
+  let s:cterm08 = "01"
+  let s:cterm09 = "16"
+  let s:cterm0A = "03"
+  let s:cterm0B = "02"
+  let s:cterm0C = "06"
+  let s:cterm0D = "04"
+  let s:cterm0E = "05"
+  let s:cterm0F = "17"
+  let s:ctermBG = "15"
+  let s:ctermFG = "00"
 else
-  let s:cterm00      = "00"
-  let s:cterm01      = "18"
-  let s:cterm02      = "19"
-  let s:cterm03      = "08"
-  let s:cterm04      = "20"
-  let s:cterm05      = "07"
-  let s:cterm06      = "21"
-  let s:cterm07      = "15"
-  let s:cterm08      = "01"
-  let s:cterm09      = "16"
-  let s:cterm0A      = "03"
-  let s:cterm0B      = "02"
-  let s:cterm0C      = "06"
-  let s:cterm0D      = "04"
-  let s:cterm0E      = "05"
-  let s:cterm0F      = "17"
-  let s:ctermBG      = "00"
-  let s:ctermFG      = "15"
+  let s:cterm00 = "00"
+  let s:cterm01 = "18"
+  let s:cterm02 = "19"
+  let s:cterm03 = "08"
+  let s:cterm04 = "20"
+  let s:cterm05 = "07"
+  let s:cterm06 = "21"
+  let s:cterm07 = "15"
+  let s:cterm08 = "01"
+  let s:cterm09 = "16"
+  let s:cterm0A = "03"
+  let s:cterm0B = "02"
+  let s:cterm0C = "06"
+  let s:cterm0D = "04"
+  let s:cterm0E = "05"
+  let s:cterm0F = "17"
+  let s:ctermBG = "00"
+  let s:ctermFG = "15"
 endif
 let g:theme_cterm00 = s:cterm00
 let g:theme_cterm01 = s:cterm01
@@ -129,35 +129,35 @@ let g:theme_ctermFG = s:ctermFG
 
 " Neovim terminal colours
 if has("nvim")
-  let g:terminal_color_0 =  "#070708"
+  let g:terminal_color_0  = "#070708"
   let g:terminal_color_15 = "#fcfcfc"
   if &background == "light"
-  	let g:terminal_color_1 =  "#b0151a"
-  	let g:terminal_color_2 =  "#22a54e"
-  	let g:terminal_color_3 =  "#fb6107"
-  	let g:terminal_color_4 =  "#006fd7"
-  	let g:terminal_color_5 =  "#811cac"
-  	let g:terminal_color_6 =  "#007784"
-  	let g:terminal_color_7 =  "#eeede7"
-  	let g:terminal_color_8 =  "#7a7b75"
-  	let g:terminal_color_9 =  "#d32f2f"
-  	let g:terminal_color_10 = "#20bf55"
-  	let g:terminal_color_11 = "#ff9505"
-  	let g:terminal_color_12 = "#00a6fb"
-  	let g:terminal_color_13 = "#ba28eb"
-  	let g:terminal_color_14 = "#09b8be"
+    let g:terminal_color_1  = "#b0151a"
+    let g:terminal_color_2  = "#22a54e"
+    let g:terminal_color_3  = "#fb6107"
+    let g:terminal_color_4  = "#006fd7"
+    let g:terminal_color_5  = "#811cac"
+    let g:terminal_color_6  = "#007784"
+    let g:terminal_color_7  = "#eeede7"
+    let g:terminal_color_8  = "#7a7b75"
+    let g:terminal_color_9  = "#d32f2f"
+    let g:terminal_color_10 = "#20bf55"
+    let g:terminal_color_11 = "#ff9505"
+    let g:terminal_color_12 = "#00a6fb"
+    let g:terminal_color_13 = "#ba28eb"
+    let g:terminal_color_14 = "#09b8be"
     let g:terminal_color_background = "#f8f8f2"
     let g:terminal_color_foreground = "#232629"
   else
-    let g:terminal_color_1 =  "#f11235"
-    let g:terminal_color_2 =  "#02d849"
-    let g:terminal_color_3 =  "#ffb627"
-    let g:terminal_color_4 =  "#4bc1fc"
-    let g:terminal_color_5 =  "#e834f9"
-    let g:terminal_color_6 =  "#0ed1d1"
-    let g:terminal_color_7 =  "#2f3337"
-    let g:terminal_color_8 =  "#484e54"
-    let g:terminal_color_9 =  "#d32f2f"
+    let g:terminal_color_1  = "#f11235"
+    let g:terminal_color_2  = "#02d849"
+    let g:terminal_color_3  = "#ffb627"
+    let g:terminal_color_4  = "#4bc1fc"
+    let g:terminal_color_5  = "#e834f9"
+    let g:terminal_color_6  = "#0ed1d1"
+    let g:terminal_color_7  = "#2f3337"
+    let g:terminal_color_8  = "#484e54"
+    let g:terminal_color_9  = "#d32f2f"
     let g:terminal_color_10 = "#20bf55"
     let g:terminal_color_11 = "#ff9505"
     let g:terminal_color_12 = "#00a6fb"
@@ -316,50 +316,50 @@ call <sid>hi("Type",         s:gui0A, "", s:cterm0A, "", "NONE", "")
 call <sid>hi("Typedef",      s:gui0A, "", s:cterm0A, "", "", "")
 
 " C highlighting
-call <sid>hi("cOperator",   s:gui0C, "", s:cterm0C, "", "", "")
-call <sid>hi("cPreCondit",  s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cOperator",    s:gui0C, "", s:cterm0C, "", "", "")
+call <sid>hi("cPreCondit",   s:gui0E, "", s:cterm0E, "", "", "")
 
 " C# highlighting
-call <sid>hi("csClass",                 s:gui0A, "", s:cterm0A, "", "", "")
-call <sid>hi("csAttribute",             s:gui0A, "", s:cterm0A, "", "", "")
-call <sid>hi("csModifier",              s:gui0E, "", s:cterm0E, "", "", "")
-call <sid>hi("csType",                  s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("csUnspecifiedStatement",  s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("csContextualStatement",   s:gui0E, "", s:cterm0E, "", "", "")
-call <sid>hi("csNewDecleration",        s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("csClass",                s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("csAttribute",            s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("csModifier",             s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("csType",                 s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("csUnspecifiedStatement", s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("csContextualStatement",  s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("csNewDecleration",       s:gui08, "", s:cterm08, "", "", "")
 
 " CSS highlighting
-call <sid>hi("cssBraces",      s:gui04, "", s:cterm04, "", "", "")
-call <sid>hi("cssClassName",   s:gui0E, "", s:cterm0E, "", "", "")
-call <sid>hi("cssColor",       s:gui0C, "", s:cterm0C, "", "", "")
+call <sid>hi("cssBraces",     s:gui04, "", s:cterm04, "", "", "")
+call <sid>hi("cssClassName",  s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("cssColor",      s:gui0C, "", s:cterm0C, "", "", "")
 
 " Diff highlighting
-call <sid>hi("DiffAdd",      s:gui0B, "", s:cterm0B, "", "", "")
-call <sid>hi("DiffChange",   s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("DiffDelete",   s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("DiffText",     s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("DiffAdded",    s:gui0B, "", s:cterm0B, "", "", "")
-call <sid>hi("DiffFile",     s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("DiffNewFile",  s:gui0B, "", s:cterm0B, "", "", "")
-call <sid>hi("DiffLine",     s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("DiffRemoved",  s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("DiffAdd",       s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("DiffChange",    s:gui03, "", s:cterm03, "", "", "")
+call <sid>hi("DiffDelete",    s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("DiffText",      s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("DiffAdded",     s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("DiffFile",      s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("DiffNewFile",   s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("DiffLine",      s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("DiffRemoved",   s:gui08, "", s:cterm08, "", "", "")
 
 " Git highlighting
-call <sid>hi("gitcommitOverflow",       s:gui08, "", s:cterm08, "", "", "")
-call <sid>hi("gitcommitSummary",        s:gui0B, "", s:cterm0B, "", "", "")
-call <sid>hi("gitcommitComment",        s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("gitcommitUntracked",      s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("gitcommitDiscarded",      s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("gitcommitSelected",       s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("gitcommitHeader",         s:gui0E, "", s:cterm0E, "", "", "")
-call <sid>hi("gitcommitSelectedType",   s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("gitcommitUnmergedType",   s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("gitcommitDiscardedType",  s:gui0D, "", s:cterm0D, "", "", "")
-call <sid>hi("gitcommitBranch",         s:gui09, "", s:cterm09, "", "bold", "")
-call <sid>hi("gitcommitUntrackedFile",  s:gui0A, "", s:cterm0A, "", "", "")
-call <sid>hi("gitcommitUnmergedFile",   s:gui08, "", s:cterm08, "", "bold", "")
-call <sid>hi("gitcommitDiscardedFile",  s:gui08, "", s:cterm08, "", "bold", "")
-call <sid>hi("gitcommitSelectedFile",   s:gui0B, "", s:cterm0B, "", "bold", "")
+call <sid>hi("gitcommitOverflow",      s:gui08, "", s:cterm08, "", "", "")
+call <sid>hi("gitcommitSummary",       s:gui0B, "", s:cterm0B, "", "", "")
+call <sid>hi("gitcommitComment",       s:gui03, "", s:cterm03, "", "", "")
+call <sid>hi("gitcommitUntracked",     s:gui03, "", s:cterm03, "", "", "")
+call <sid>hi("gitcommitDiscarded",     s:gui03, "", s:cterm03, "", "", "")
+call <sid>hi("gitcommitSelected",      s:gui03, "", s:cterm03, "", "", "")
+call <sid>hi("gitcommitHeader",        s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("gitcommitSelectedType",  s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("gitcommitUnmergedType",  s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("gitcommitDiscardedType", s:gui0D, "", s:cterm0D, "", "", "")
+call <sid>hi("gitcommitBranch",        s:gui09, "", s:cterm09, "", "bold", "")
+call <sid>hi("gitcommitUntrackedFile", s:gui0A, "", s:cterm0A, "", "", "")
+call <sid>hi("gitcommitUnmergedFile",  s:gui08, "", s:cterm08, "", "bold", "")
+call <sid>hi("gitcommitDiscardedFile", s:gui08, "", s:cterm08, "", "bold", "")
+call <sid>hi("gitcommitSelectedFile",  s:gui0B, "", s:cterm0B, "", "bold", "")
 
 " GitGutter highlighting
 call <sid>hi("GitGutterAdd",           s:gui0B, s:gui06, s:cterm0B, s:cterm06, "", "")
