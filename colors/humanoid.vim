@@ -168,43 +168,9 @@ if has("nvim")
   endif
 elseif has("terminal")
   if &background == "light"
-    let g:terminal_ansi_colors = [
-          \ "#232629",
-          \ "#b0151a",
-          \ "#22a54e",
-          \ "#fb6107",
-          \ "#006fd7",
-          \ "#811cac",
-          \ "#007784",
-          \ "#eeede7",
-          \ "#7a7b75",
-          \ "#d32f2f",
-          \ "#20bf55",
-          \ "#ff9505",
-          \ "#00a6fb",
-          \ "#ba28eb",
-          \ "#09b8be",
-          \ "#f8f8f2",
-          \ ]
+    let g:terminal_ansi_colors = [ "#232629", "#b0151a", "#22a54e", "#fb6107", "#006fd7", "#811cac", "#007784", "#eeede7", "#7a7b75", "#d32f2f", "#20bf55", "#ff9505", "#00a6fb", "#ba28eb", "#09b8be", "#f8f8f2", ]
   else
-    let g:terminal_ansi_colors = [
-          \ "#f8f8f2",
-          \ "#f11235",
-          \ "#02d849",
-          \ "#ffb627",
-          \ "#4bc1fc",
-          \ "#e834f9",
-          \ "#0ed1d1",
-          \ "#2f3337",
-          \ "#484e54",
-          \ "#d32f2f",
-          \ "#20bf55",
-          \ "#ff9505",
-          \ "#00a6fb",
-          \ "#ba28eb",
-          \ "#09b8be",
-          \ "#232629",
-          \ ]
+    let g:terminal_ansi_colors = [ "#f8f8f2", "#f11235", "#02d849", "#ffb627", "#4bc1fc", "#e834f9", "#0ed1d1", "#2f3337", "#484e54", "#d32f2f", "#20bf55", "#ff9505", "#00a6fb", "#ba28eb", "#09b8be", "#232629", ]
   endif
 endif
 let s:none = "NONE"
