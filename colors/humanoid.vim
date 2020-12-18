@@ -419,16 +419,16 @@ call <sid>hi("SpellCap",     s:none, s:none, s:none, s:none, "undercurl", s:gui0
 call <sid>hi("SpellRare",    s:none, s:none, s:none, s:none, "undercurl", s:gui0E)
 
 " Startify highlighting
-call <sid>hi("StartifyBracket",  s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("StartifyFile",     s:gui07, "", s:cterm07, "", "", "")
+call <sid>hi("StartifyBracket",  s:gui09, "", s:cterm09, "", "", "")
+call <sid>hi("StartifyFile",     s:guiFG, "", s:ctermFG, "", "bold", "")
 call <sid>hi("StartifyFooter",   s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("StartifyHeader",   s:gui0B, "", s:cterm0B, "", "", "")
-call <sid>hi("StartifyNumber",   s:gui09, "", s:cterm09, "", "", "")
-call <sid>hi("StartifyPath",     s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("StartifySection",  s:gui0E, "", s:cterm0E, "", "", "")
+call <sid>hi("StartifyHeader",   s:gui0D, "", s:cterm0C, "", "", "")
+call <sid>hi("StartifyNumber",   s:guiFG, "", s:ctermFG, "", "bold", "")
+call <sid>hi("StartifyPath",     s:gui0C, "", s:cterm0C, "", "", "")
+call <sid>hi("StartifySection",  s:gui0B, "", s:cterm0B, "", "bold", "")
 call <sid>hi("StartifySelect",   s:gui0C, "", s:cterm0C, "", "", "")
 call <sid>hi("StartifySlash",    s:gui03, "", s:cterm03, "", "", "")
-call <sid>hi("StartifySpecial",  s:gui03, "", s:cterm03, "", "", "")
+call <sid>hi("StartifySpecial",  s:gui09, "", s:cterm09, "", "", "")
 
 " Java highlighting
 call <sid>hi("javaOperator",     s:gui0D, "", s:cterm0D, "", "", "")
