@@ -38,13 +38,13 @@ else
   let s:gui05 = "#484e54"
   let s:gui06 = "#2f3337"
   let s:gui07 = "#070708"
-  let s:gui08 = "#f11235"
+  let s:gui08 = "#f7143a"
   let s:gui09 = "#ff9505"
   let s:gui0A = "#ffb627"
   let s:gui0B = "#02d849"
   let s:gui0C = "#0ed1d1"
   let s:gui0D = "#4bc1fc"
-  let s:gui0E = "#e834f9"
+  let s:gui0E = "#ec44eb"
   let s:gui0F = "#b27701"
   let s:guiBG = "#232629"
   let s:guiFG = "#f8f8f2"
@@ -140,7 +140,7 @@ if has("nvim")
     let g:terminal_color_6  = "#007784"
     let g:terminal_color_7  = "#eeede7"
     let g:terminal_color_8  = "#7a7b75"
-    let g:terminal_color_9  = "#d32f2f"
+    let g:terminal_color_9  = "#c71235"
     let g:terminal_color_10 = "#20bf55"
     let g:terminal_color_11 = "#ff9505"
     let g:terminal_color_12 = "#00a6fb"
@@ -149,15 +149,15 @@ if has("nvim")
     let g:terminal_color_background = "#f8f8f2"
     let g:terminal_color_foreground = "#232629"
   else
-    let g:terminal_color_1  = "#f11235"
+    let g:terminal_color_1  = "#f7143a"
     let g:terminal_color_2  = "#02d849"
     let g:terminal_color_3  = "#ffb627"
     let g:terminal_color_4  = "#4bc1fc"
-    let g:terminal_color_5  = "#e834f9"
+    let g:terminal_color_5  = "#ec44eb"
     let g:terminal_color_6  = "#0ed1d1"
     let g:terminal_color_7  = "#2f3337"
     let g:terminal_color_8  = "#484e54"
-    let g:terminal_color_9  = "#d32f2f"
+    let g:terminal_color_9  = "#c71235"
     let g:terminal_color_10 = "#20bf55"
     let g:terminal_color_11 = "#ff9505"
     let g:terminal_color_12 = "#00a6fb"
@@ -168,9 +168,9 @@ if has("nvim")
   endif
 elseif has("terminal")
   if &background == "light"
-    let g:terminal_ansi_colors = [ "#232629", "#b0151a", "#22a54e", "#fb6107", "#006fd7", "#811cac", "#007784", "#eeede7", "#7a7b75", "#d32f2f", "#20bf55", "#ff9505", "#00a6fb", "#ba28eb", "#09b8be", "#f8f8f2", ]
+    let g:terminal_ansi_colors = [ "#232629", "#b0151a", "#22a54e", "#fb6107", "#006fd7", "#811cac", "#007784", "#eeede7", "#7a7b75", "#c71235", "#20bf55", "#ff9505", "#00a6fb", "#ba28eb", "#09b8be", "#f8f8f2", ]
   else
-    let g:terminal_ansi_colors = [ "#f8f8f2", "#f11235", "#02d849", "#ffb627", "#4bc1fc", "#e834f9", "#0ed1d1", "#2f3337", "#484e54", "#d32f2f", "#20bf55", "#ff9505", "#00a6fb", "#ba28eb", "#09b8be", "#232629", ]
+    let g:terminal_ansi_colors = [ "#f8f8f2", "#f7143a", "#02d849", "#ffb627", "#4bc1fc", "#ec44eb", "#0ed1d1", "#2f3337", "#484e54", "#c71235", "#20bf55", "#ff9505", "#00a6fb", "#ba28eb", "#09b8be", "#232629", ]
   endif
 endif
 let s:none = "NONE"
