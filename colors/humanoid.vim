@@ -1,5 +1,6 @@
 " Name: Humanoid scheme
 " Author: Thomas (tasmo) Friese
+" Version: 0.1
 
 " Theme setup
 hi clear
