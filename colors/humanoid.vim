@@ -235,7 +235,10 @@ call <sid>hi("WarningMsg",    s:gui08, "", s:cterm08, "", "", "")
 call <sid>hi("WildMenu",      s:guiBG, s:gui0A, s:cterm08, "", "", "")
 call <sid>hi("Title",         s:gui0D, "", s:cterm0D, "", "NONE", "")
 call <sid>hi("Conceal",       s:gui0D, s:gui06, s:cterm0D, s:cterm06, "", "")
-call <sid>hi("Cursor",        s:guiFG, s:gui0B, s:ctermFG, s:cterm0B, "", "")
+call <sid>hi("Cursor",        s:guiBG, s:gui03, s:ctermBG, s:cterm03, "", "")
+call <sid>hi("lCursor",       s:guiBG, s:gui0B, s:ctermBG, s:cterm0B, "", "")
+call <sid>hi("rCursor",       s:guiBG, s:gui0A, s:ctermBG, s:cterm0A, "", "")
+call <sid>hi("CursorIM",      s:guiBG, s:gui0E, s:ctermBG, s:cterm0E, "", "")
 call <sid>hi("NonText",       s:gui05, "", s:cterm05, "", "", "")
 call <sid>hi("LineNr",        s:gui05, "", s:cterm05, "", "", "")
 call <sid>hi("SignColumn",    s:gui03, s:gui06, s:cterm03, s:cterm06, "", "")
@@ -472,5 +475,13 @@ delf <sid>hi
 " Remove color variables
 unlet s:gui00 s:gui01 s:gui02 s:gui03 s:gui04 s:gui05 s:gui06 s:gui07 s:gui08 s:gui09 s:gui0A s:gui0B s:gui0C s:gui0D s:gui0E s:gui0F
 unlet s:cterm00 s:cterm01 s:cterm02 s:cterm03 s:cterm04 s:cterm05 s:cterm06 s:cterm07 s:cterm08 s:cterm09 s:cterm0A s:cterm0B s:cterm0C s:cterm0D s:cterm0E s:cterm0F
+
+" Set Guicursor colors
+set guicursor=n-c:block-Cursor
+      \,v:block-CursorIM
+      \,i-ci-ve:ver25-lCursor
+      \,r-cr:hor20-rCursor
+      \,o:hor50
+      \,sm:block-blinkwait175-blinkoff150-blinkon175
 
 " vim:set ft=vim et sw=2:
