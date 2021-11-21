@@ -385,6 +385,10 @@ call <sid>hi("markdownHeadingDelimiter",  s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("NERDTreeDirSlash",  s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("NERDTreeExecFile",  s:gui04, "", s:cterm04, "", "", "")
 
+" Indent Guides
+call <sid>hi("IndentGuidesOdd",   "", s:gui07, "", s:cterm07, "", "")
+call <sid>hi("IndentGuidesEven",  "", s:guiBG, "", s:ctermBG, "", "")
+
 " PHP highlighting
 call <sid>hi("phpMemberSelector",  s:gui04, "", s:cterm04, "", "", "")
 call <sid>hi("phpComparison",      s:gui04, "", s:cterm04, "", "", "")
