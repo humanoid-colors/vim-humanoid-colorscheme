@@ -50,6 +50,8 @@ else
   let s:guiBG = "#232629"
   let s:guiFG = "#f8f8f2"
 endif
+let s:gwhite = "#fcfcfc"
+let s:gblack = "#070708"
 let g:theme_gui00 = s:gui00
 let g:theme_gui01 = s:gui01
 let g:theme_gui02 = s:gui02
@@ -68,6 +70,8 @@ let g:theme_gui0E = s:gui0E
 let g:theme_gui0F = s:gui0F
 let g:theme_guiBG = s:guiBG
 let g:theme_guiFG = s:guiFG
+let g:theme_gwhite = s:gwhite
+let g:theme_gblack = s:gblack
 
 " Terminal color definitions
 if &background == "light"
