@@ -92,13 +92,13 @@ let s:cterm14 = "14"
 let s:cterm15 = "15"
 if &background == "light"
   let s:ctermBG = "15"
-  let s:ctermFG = "00"
+  let s:ctermFG = "0"
   let s:ctermBA = "7"
   let s:ctermBB = "8"
   let s:ctermFA = "0"
   let s:ctermFB = "15"
 else
-  let s:ctermBG = "00"
+  let s:ctermBG = "0"
   let s:ctermFG = "15"
   let s:ctermBA = "8"
   let s:ctermBB = "7"
@@ -445,7 +445,7 @@ call <sid>hi("javaOperator", s:gui0D, "", s:cterm4,  "", "", "")
 " Powerline
 call <sid>hi("Buffer",       s:gui00, s:gui06, s:ctermBB, s:ctermBA, "", "")
 call <sid>hi("BufferS",      s:gui06, s:none,  s:ctermBA, s:none,    "", "")
-call <sid>hi("BufferError",  "white", s:gui08, "white",   s:cterm1,  "", "")
+call <sid>hi("BufferError",  s:gwhite, s:gui08, s:cterm7, s:cterm1,  "", "")
 call <sid>hi("BufferErrorS", s:gui08, s:none,  s:cterm1,  s:none,    "", "")
 call <sid>hi("CursorStatus", s:gui03, s:gui06, s:ctermBB, s:ctermBA, "", "")
 if &background == "light"
